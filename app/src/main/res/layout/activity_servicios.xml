@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:divider="@drawable/reserve"
+    android:orientation="vertical"
+    tools:context=".ServiciosActivity">
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/nuestros_servicios"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:translationY="5sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="10sp">
+
+        <Button
+            android:id="@+id/BTNRESERVE"
+            android:layout_width="279dp"
+            android:layout_height="150dp"
+            android:layout_marginLeft="120sp"
+            android:layout_marginRight="120sp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:drawableBottom="@drawable/reserve"
+            android:insetLeft="130dp"
+            android:insetRight="130dp"
+            android:onClick="BotonReserve"
+            android:rotationX="-10"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="5sp">
+
+        <Button
+            android:id="@+id/BTNDOMICILIO"
+            android:layout_width="211dp"
+            android:layout_height="168dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFDFD"
+            android:drawableBottom="@drawable/domicilio"
+            android:insetLeft="40dp"
+            android:insetRight="40dp"
+            android:onClick="BotonDomicilio" />
+
+        <Button
+            android:id="@+id/BTNSERSOLI"
+            android:layout_width="219dp"
+            android:layout_height="178dp"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:drawableBottom="@drawable/serviciossolicitados"
+            android:insetLeft="55dp"
+            android:insetRight="55dp"
+            android:onClick="BotonSolicitados"
+            android:translationX="10sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:translationY="5sp">
+
+        <Button
+            android:id="@+id/BTNCONTACTO"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FFFFFF"
+            android:drawableBottom="@drawable/contactanos"
+            android:insetLeft="110dp"
+            android:insetTop="-32dp"
+            android:insetRight="110dp"
+            android:insetBottom="10dp"
+            android:onClick="BotonContactanos"
+            android:rotationX="10" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cortecool 2020-Beta1.0"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:translationY="62sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/BTNSALIDA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150sp"
+            android:layout_marginRight="150sp"
+            android:layout_weight="1"
+            android:backgroundTint="#020202"
+            android:insetLeft="140dp"
+            android:insetRight="140dp"
+            android:onClick="BotonSalir"
+            android:text="SALIR"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/BTNUSUARIOS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="200sp"
+        android:layout_marginRight="20sp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="BotonUsuarios"
+        android:text="USUARIOS REGISTRADOS"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:translationX="20sp"
+        android:translationY="-320sp" />
+
+</LinearLayout>
